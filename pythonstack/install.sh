@@ -18,9 +18,4 @@ debconf-set-selections <<< 'mysql-server mysql-server/root_password_again passwo
 apt-get install -y mysql-server
 
 # virtual environment
-sudo pip install -y virtualenv
-
-# create virtualenv
-mkdir ~/myproject
-cd ~/myproject
-virtualenv myprojectenv
+sudo pip install virtualenv
